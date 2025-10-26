@@ -1,4 +1,4 @@
-module job-tracker
+module github.com/diorshelton/job-tracker
 
 go 1.25.0
 

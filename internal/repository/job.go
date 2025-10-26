@@ -2,7 +2,6 @@ package repository
 
 import (
 	"database/sql"
-
 	"github.com/diorshelton/job-tracker/internal/models"
 )
 
@@ -14,11 +13,6 @@ func NewApplicationRepository(db *sql.DB) *ApplicationRepository {
 	return &ApplicationRepository{db: db}
 }
 
-func (r *ApplicationRepository) CreateApplication(app *models.Application) error {
-
-	application := &models.Application {
-
-
-	}
+func (r *ApplicationRepository) NewJob(app *models.Job) error {
 	return nil
 }
